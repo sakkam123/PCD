@@ -1,0 +1,64 @@
+[0.008s] Invoking command in '/home/mariem/custom_tb3_ws/build/my_custom_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble /usr/bin/cmake /home/mariem/custom_tb3_ws/src/my_custom_world -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mariem/custom_tb3_ws/install/my_custom_world
+[0.043s] -- The C compiler identification is GNU 11.4.0
+[0.083s] -- The CXX compiler identification is GNU 11.4.0
+[0.087s] -- Detecting C compiler ABI info
+[0.136s] -- Detecting C compiler ABI info - done
+[0.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.141s] -- Detecting C compile features
+[0.142s] -- Detecting C compile features - done
+[0.144s] -- Detecting CXX compiler ABI info
+[0.197s] -- Detecting CXX compiler ABI info - done
+[0.204s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.204s] -- Detecting CXX compile features
+[0.204s] -- Detecting CXX compile features - done
+[0.206s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.308s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.353s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.372s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.404s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.408s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.414s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.424s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.437s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.473s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.475s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.536s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.556s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.585s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.593s] -- Looking for pthread.h
+[0.643s] -- Looking for pthread.h - found
+[0.643s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.696s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.697s] -- Found Threads: TRUE  
+[0.737s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.784s] -- Configuring done
+[0.787s] -- Generating done
+[0.788s] -- Build files have been written to: /home/mariem/custom_tb3_ws/build/my_custom_world
+[0.795s] Invoked command in '/home/mariem/custom_tb3_ws/build/my_custom_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble /usr/bin/cmake /home/mariem/custom_tb3_ws/src/my_custom_world -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mariem/custom_tb3_ws/install/my_custom_world
+[0.797s] Invoking command in '/home/mariem/custom_tb3_ws/build/my_custom_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/mariem/custom_tb3_ws/build/my_custom_world -- -j16 -l16
+[0.823s] Invoked command in '/home/mariem/custom_tb3_ws/build/my_custom_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/mariem/custom_tb3_ws/build/my_custom_world -- -j16 -l16
+[0.830s] Invoking command in '/home/mariem/custom_tb3_ws/build/my_custom_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/mariem/custom_tb3_ws/build/my_custom_world
+[0.835s] -- Install configuration: ""
+[0.835s] -- Execute custom install script
+[0.835s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/lib/my_custom_world/map_merger.py
+[0.841s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/launch/custom_tb3_world.launch.py
+[0.846s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/worlds/custom_world.world
+[0.852s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/config/collab.rviz
+[0.857s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/config/slam_tb3_1.yaml
+[0.862s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/config/slam_tb3_2.yaml
+[0.867s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/ament_index/resource_index/package_run_dependencies/my_custom_world
+[0.873s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/ament_index/resource_index/parent_prefix_path/my_custom_world
+[0.878s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/environment/ament_prefix_path.sh
+[0.883s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/environment/ament_prefix_path.dsv
+[0.888s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/environment/path.sh
+[0.894s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/environment/path.dsv
+[0.899s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/local_setup.bash
+[0.904s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/local_setup.sh
+[0.909s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/local_setup.zsh
+[0.914s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/local_setup.dsv
+[0.918s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/package.dsv
+[0.923s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/ament_index/resource_index/packages/my_custom_world
+[0.928s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/cmake/my_custom_worldConfig.cmake
+[0.934s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/cmake/my_custom_worldConfig-version.cmake
+[0.940s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/package.xml
+[0.946s] Invoked command in '/home/mariem/custom_tb3_ws/build/my_custom_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/mariem/custom_tb3_ws/build/my_custom_world

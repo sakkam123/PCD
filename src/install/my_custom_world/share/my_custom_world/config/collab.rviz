@@ -1,0 +1,64 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Current View
+
+Visualization Manager:
+  Displays:
+    # Global merged map
+    - Class: rviz_default_plugins/Map
+      Topic: /global_map
+      Name: Global Map
+      Alpha: 0.7
+      Color Scheme: map
+
+    # Individual robot maps
+    - Class: rviz_default_plugins/Map
+      Topic: /robot1/local_map
+      Name: Robot1 Local Map
+      Alpha: 0.5
+      Color Scheme: costmap
+
+    - Class: rviz_default_plugins/Map
+      Topic: /robot2/local_map
+      Name: Robot2 Local Map
+      Alpha: 0.5
+      Color Scheme: costmap
+
+    # Robot models
+    - Class: rviz_default_plugins/RobotModel
+      Description Topic: /robot1/robot_description
+      Name: Robot1 Model
+      TF Prefix: "robot1"
+
+    - Class: rviz_default_plugins/RobotModel
+      Description Topic: /robot2/robot_description
+      Name: Robot2 Model
+      TF Prefix: "robot2"
+
+    # TF frames
+    - Class: rviz_default_plugins/TF
+      Marker Scale: 0.3
+
+    # Laser scans
+    - Class: rviz_default_plugins/LaserScan
+      Topic: /robot1/scan
+      Name: Robot1 Scan
+      Color: 255; 0; 0
+
+    - Class: rviz_default_plugins/LaserScan
+      Topic: /robot2/scan
+      Name: Robot2 Scan
+      Color: 0; 255; 0
+
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: map
+    Frame Rate: 30
+
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Target Frame: map
+      Distance: 5.0

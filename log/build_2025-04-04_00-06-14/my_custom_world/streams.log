@@ -1,0 +1,28 @@
+[0.011s] Invoking command in '/home/mariem/custom_tb3_ws/build/my_custom_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/mariem/custom_tb3_ws/build/my_custom_world -- -j16 -l16
+[0.052s] Invoked command in '/home/mariem/custom_tb3_ws/build/my_custom_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/mariem/custom_tb3_ws/build/my_custom_world -- -j16 -l16
+[0.060s] Invoking command in '/home/mariem/custom_tb3_ws/build/my_custom_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/mariem/custom_tb3_ws/build/my_custom_world
+[0.065s] -- Install configuration: ""
+[0.065s] -- Execute custom install script
+[0.066s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/lib/my_custom_world/map_merger.py
+[0.066s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/launch/custom_tb3_world.launch.py
+[0.066s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/worlds/custom_world.world
+[0.066s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/config/collab.rviz
+[0.066s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/config/config.rviz
+[0.074s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/config/slam_tb3_1.yaml
+[0.074s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/config/slam_tb3_2.yaml
+[0.074s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/ament_index/resource_index/package_run_dependencies/my_custom_world
+[0.074s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/ament_index/resource_index/parent_prefix_path/my_custom_world
+[0.074s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/environment/ament_prefix_path.sh
+[0.074s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/environment/ament_prefix_path.dsv
+[0.075s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/environment/path.sh
+[0.075s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/environment/path.dsv
+[0.075s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/local_setup.bash
+[0.075s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/local_setup.sh
+[0.075s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/local_setup.zsh
+[0.075s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/local_setup.dsv
+[0.075s] -- Symlinking: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/package.dsv
+[0.082s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/ament_index/resource_index/packages/my_custom_world
+[0.082s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/cmake/my_custom_worldConfig.cmake
+[0.082s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/cmake/my_custom_worldConfig-version.cmake
+[0.082s] -- Up-to-date symlink: /home/mariem/custom_tb3_ws/install/my_custom_world/share/my_custom_world/package.xml
+[0.085s] Invoked command in '/home/mariem/custom_tb3_ws/build/my_custom_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariem/my_ros2_ws/install/my_turtlebot_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/mariem/custom_tb3_ws/build/my_custom_world
